@@ -1,0 +1,38 @@
+{
+  "name": "haste-starter",
+  "version": "1.0.0",
+  "description": "[View the documentation](https://github.com/HasteDesign/Haste-Starter)",
+  "scripts": {
+    "imagemin": "imagemin imagemin src/img/* --out-dir=assets/img | gnomon --type=elapsed-total --medium=10.0 --high=20.0",
+    "mix-dev": "npm run mix-development",
+    "mix-development": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "mix-watch": "npm run mix-development -- --watch",
+    "mix-hot": "cross-env NODE_ENV=development node_modules/webpack-dev-server/bin/webpack-dev-server.js --inline --hot --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "mix-prod": "npm run mix-production",
+    "mix-production": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --no-progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js"
+  },
+  "browserslist": {
+    "production": [
+      "last 2 versions"
+    ],
+    "development": [
+      "last 2 versions"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HasteDesign/Haste-Starter.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://github.com/HasteDesign/Haste-Starter",
+  "devDependencies": {
+    "bootstrap": "^5.0.0-beta3",
+    "cross-env": "^5.2.1",
+    "laravel-mix": "^5.0.9",
+    "sass": "^1.29.0",
+    "sass-loader": "^8.0.2",
+    "webpack-livereload-plugin": "^1.2.0"
+  }
+}

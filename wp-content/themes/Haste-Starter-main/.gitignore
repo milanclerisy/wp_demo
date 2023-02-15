@@ -1,0 +1,10 @@
+# Folders
+node_modules
+
+# Assets
+# Ignore compiled css and js to avoid a lot of conflicts.
+# assets/dist/css
+# assets/dist/js
+
+# Extensions
+*.zip

@@ -1,0 +1,47 @@
+//
+// Theme Style
+//
+
+/// --------------------------------------------------------------
+// Import functions before variables to fix compilation issues
+// --------------------------------------------------------------
+@import "../../../node_modules/bootstrap/scss/functions";
+@import "settings/variables";
+@import "../../../node_modules/bootstrap/scss/bootstrap";
+
+// --------------------------------------------------------------
+// Tools, Variables and Mixins
+// --------------------------------------------------------------
+@import "settings/mixins";
+@import "settings/fonts";
+
+// --------------------------------------------------------------
+// Reset and Dependencies
+// --------------------------------------------------------------
+
+// --------------------------------------------------------------
+// CSS and Components
+// --------------------------------------------------------------
+@import "shared/base";
+@import "shared/gutenberg";
+@import "shared/forms";
+@import "shared/pagination";
+@import "shared/comments";
+
+// --------------------------------------------------------------
+// Layout
+// --------------------------------------------------------------
+@import "shared/navigation-skiplink";
+@import "shared/navigation-top";
+@import "shared/content";
+@import "shared/sidebar";
+@import "shared/footer";
+@import "shared/animation";
+
+// --------------------------------------------------------------
+// Popular Plugins
+// --------------------------------------------------------------
+// @import "vendor/woocommerce";
+// @import "vendor/contact-form";
+// @import "vendor/elementor";
+// @import "vendor/jetelements";

@@ -1,0 +1,21 @@
+/* 
+Theme Name: Beach Theme
+Author: Milan
+Author URI: https://github.com/milanclerisy
+Version: 1.0
+*/
+
+header {
+    border-bottom: 1px solid #eee;
+    padding: 20px;
+    background: #91c6e1;
+    color: #403e3e;
+}
+a.title {
+    color: black;
+    text-decoration: none;
+}
+section#main {
+    width: 1024px;
+    margin: 20px auto;
+}
